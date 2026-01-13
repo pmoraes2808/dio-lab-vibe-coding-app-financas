@@ -82,7 +82,7 @@ O MVP do BolsoIA contempla:
 
 ## 🖼️ Evidências das interações (Copilot/Lovable)
 
-
+https://github.com/pmoraes2808/dio-lab-vibe-coding-app-financas/issues/1
 
 
 ---

@@ -1,113 +1,98 @@
-# 💸 App de Finanças Pessoais do Venilton com Vibe Coding
+# 💰 BolsoIA — App de Organização de Finanças Pessoais com IA
 
-Este projeto foi desenvolvido como um Desafio de Projeto da DIO de Vibe Coding utilizando o Lovable e o Copilot Web. A proposta é criar um aplicativo de organização financeira pessoal baseado em interações em linguagem natural.
+O **BolsoIA** é um projeto conceitual de aplicativo de finanças pessoais que utiliza **Inteligência Artificial** para ajudar usuários a organizar gastos, identificar desperdícios financeiros e criar planos de economia personalizados.
+
+O projeto foi desenvolvido com a abordagem de **Vibe Coding**, onde a IA atua como parceira estratégica no processo de criação do produto, sendo guiada por prompts claros e bem estruturados — simulando um cenário real de mercado.
+---
+
+## 🎯 Objetivo do Produto
+
+Simplificar o controle financeiro pessoal, substituindo planilhas manuais e anotações cansativas por uma experiência inteligente, automatizada e conversacional.
+
+O app auxilia o usuário a:
+- Entender para onde o dinheiro está indo
+- Identificar gastos que mais impactam o orçamento
+- Criar metas realistas de economia
+- Tomar decisões financeiras com mais clareza
 
 ---
 
-## 📝 PRD Refinado no Copilot Web
+## 👥 Público-alvo
 
-```markdown
-# PRD - App de Organização Financeira com Conversa Natural
-
-## Visão Geral
-Criar um aplicativo de organização de finanças pessoais que funcione por meio de conversas em linguagem natural.  
-O objetivo é tornar o controle financeiro mais intuitivo, acessível e livre de burocracias como planilhas ou formulários complexos.
-
-## Problema a Resolver
-Muitas pessoas abandonam o controle financeiro por acharem os aplicativos atuais complicados, exigindo entradas manuais e oferecendo pouca personalização.  
-Queremos resolver isso com uma experiência conversacional fluida e recomendações automáticas que se adaptam ao perfil do usuário.
-
-## Público-Alvo
-Pessoas que desejam começar a organizar suas finanças de forma prática e sem complicações — especialmente iniciantes que não têm familiaridade com apps financeiros tradicionais.
-
-## Funcionalidades-Chave
-1. Registro de gastos via chat: O usuário descreve seus gastos em linguagem natural, como “gastei R$ 30 no mercado”.
-2. Classificação automática de transações: O app identifica e categoriza os gastos com base no texto.
-3. Definição e acompanhamento de metas financeiras: O usuário pode criar metas como “economizar R$ 500 até o fim do mês”.
-4. Dicas personalizadas do Agente Financeiro: Um assistente virtual que sugere formas de economizar com base nos hábitos do usuário.
-5. Relatórios simples e personalizados: Visualizações claras dos gastos, metas e progresso, adaptadas ao estilo do usuário.
-
-## Princípio de Design Universal
-A solução será construída com base em Design Universal, garantindo que o aplicativo ofereça uma experiência acessível, intuitiva e inclusiva para o maior número possível de pessoas — independentemente de idade, nível de alfabetização digital, limitações físicas ou cognitivas.  
-Isso inclui:
-- Interface clara e legível
-- Navegação simples e sem sobrecarga de informações
-- Compatibilidade com leitores de tela e comandos por voz
-- Feedbacks visuais e auditivos para facilitar o uso
-
-## Entregável da IA
-Gerar um plano de MVP contendo:
-- As principais telas (chat, metas, relatórios)
-- Recursos técnicos necessários (NLP, categorização automática, motor de recomendações)
-- Estratégia de validação inicial com usuários reais
-- Linguagem acessível e tom educativo, em português
-- Aplicação dos princípios de Design Universal desde o protótipo
-```
+- Profissionais CLT ou autônomos  
+- Pessoas que usam cartão, Pix e assinaturas digitais  
+- Usuários que querem economizar, mas não conseguem manter controle manual  
 
 ---
 
-## 💬 Interações com o Lovable
+## 🧠 Diferencial do BolsoIA
 
-> Crie um App de Finanças Pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
-
-> Tentei criar uma meta chamada Reserva de Emergencia, mas ela não apareceu no componente. A impressão que tive foi que apenas o Assistente Financeiro a reconheceu, poderia verificar? Além disso, onde vejo os gráficos e extrato?
-
-> Sim (Quer que eu adicione uma tela de relatórios com gráficos e extrato detalhado das transações?)
-
----
-
-## 🎯 Resultado Final
-
-Acesse o protótipo funcional no Lovable:  
-**[conversa-fin-amigo.lovable.app](https://conversa-fin-amigo.lovable.app/)**
-
-<img width="1920" height="945" alt="image" src="https://github.com/user-attachments/assets/88ef611d-970e-4377-918a-918714311218" />
+- **Assistente financeiro conversacional**, acessível por chat  
+- Categorização automática de gastos com IA  
+- Identificação de **“ofensores financeiros”** (gastos com maior impacto e potencial de redução)  
+- Planejamento de metas dinâmico e adaptativo  
+- Linguagem clara, sem julgamento, focada em educação financeira  
 
 ---
 
-## 🔍 Funcionalidades do App de Organização Financeira
+## 🧩 Escopo do MVP
 
-### 1. Dashboard Financeiro
-- Exibe um panorama claro das finanças pessoais:
-  - **Receitas**: Total de ganhos registrados
-  - **Despesas**: Total de gastos
-  - **Saldo**: Diferença entre receitas e despesas
-- Interface simples e direta para facilitar a compreensão
+O MVP do BolsoIA contempla:
 
-### 2. Assistente Financeiro
-- Personagem conversacional que interage com o usuário
-- Incentiva a conexão de contas e cartões para uma visão completa das finanças
-- Oferece suporte emocional e motivacional
+- Onboarding financeiro simplificado (renda, contas fixas e meta)
+- Registro manual de gastos e importação básica (CSV)
+- Categorização automática assistida por IA
+- Radar de ofensores financeiros com sugestões práticas
+- Criação e acompanhamento de metas mensais e semanais
+- Chat financeiro para dúvidas e orientações
+- Relatórios semanais e mensais com insights textuais
 
-### 3. Registro de Transações via Chat
-- Campo de entrada para o usuário digitar mensagens em linguagem natural
-- Permite registrar gastos e interagir com o assistente de forma fluida
-
-### 4. Metas Financeiras
-- Área dedicada à criação e acompanhamento de objetivos financeiros
-- Sugestão proativa para o usuário definir metas
-- Botão de ação para adicionar novas metas
-
-### 5. Relatórios Personalizados
-- Visualizações simples e adaptadas ao estilo do usuário
-- Acompanhamento de metas e progresso financeiro
-
-### 6. Design Universal
-- Interface acessível e inclusiva:
-  - Linguagem simples
-  - Navegação clara
-  - Compatibilidade com leitores de tela e comandos por voz
-  - Feedbacks visuais e auditivos para facilitar o uso
+🔮 **Fora do escopo (versões futuras)**:
+- Integração com Open Finance
+- Automatização bancária
+- Execução automática de transações
 
 ---
+
+## 🤖 Agentes de IA do Sistema
+
+1. **Agente Categorizador**  
+   Classifica despesas automaticamente e solicita confirmação quando necessário.
+
+2. **Agente Detector de Ofensores**  
+   Identifica gastos que mais impactam o orçamento e sugere cortes ou ajustes.
+
+3. **Agente Planejador de Metas**  
+   Cria planos de economia e ajusta metas conforme o comportamento do usuário.
+
+4. **Agente Coach Financeiro (Chat)**  
+   Interage com o usuário, responde perguntas e orienta decisões financeiras.
+
+---
+
+## 📊 Métricas de Sucesso
+
+- Retenção de usuários (7 e 30 dias)
+- Percentual de gastos categorizados automaticamente
+- Economia potencial sugerida vs. economia real
+- Frequência de uso do chat financeiro
+
+--- 
+
+
+## 🖼️ Evidências das interações (Copilot/Lovable)
+
+
+
+
+---
+
+
 
 ## 🧠 Reflexão
 
-### O que funcionou bem?  
-O refinamento do PRD previamente feito no Copilot ajudou muito, pois os créditos do Lovable acabaram em apenas 3 interações.
+### Este projeto reforçou a importância de estruturar ideias antes de escrever código. 
+Aprendi a utilizar a Inteligência Artificial como uma parceira estratégica no processo de criação de produtos digitais, desde a concepção até a definição de escopo, fluxos e métricas.
 
-### O que não funcionou como o esperado?  
-Esperava poder interagir mais vezes gratuitamente com o Lovable, mas as interações feitas já foram de grande valia para aprender mais sobre Vibe Coding.
+### O desafio demonstrou como prompts bem elaborados e objetivos claros podem acelerar a criação de soluções viáveis, organizadas e alinhadas às necessidades reais dos usuários.
 
-### O que aprendi sobre conversar com IAs?  
-Aprendi que é basicamente igual a conversar com uma pessoa: quanto mais detalhes e clareza você dá, melhor é a interação.

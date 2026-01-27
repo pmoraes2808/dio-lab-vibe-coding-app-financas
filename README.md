@@ -1,47 +1,71 @@
-# 💸 App de Finanças Pessoais do Venilton com Vibe Coding
-
-Este projeto foi desenvolvido como um Desafio de Projeto da DIO de Vibe Coding utilizando o Lovable e o Copilot Web. A proposta é criar um aplicativo de organização financeira pessoal baseado em interações em linguagem natural.
+# 💸 Aplicativo de Organização de Finanças Pessoais Coversacional do Paulo Moraes com Vibe Coding
 
 ---
 
 ## 📝 PRD Refinado no Copilot Web
 
 ```markdown
-# PRD - App de Organização Financeira com Conversa Natural
+# PRD - Aplicativo de Organização de Finanças Pessoais Conversacional
 
-## Visão Geral
-Criar um aplicativo de organização de finanças pessoais que funcione por meio de conversas em linguagem natural.  
-O objetivo é tornar o controle financeiro mais intuitivo, acessível e livre de burocracias como planilhas ou formulários complexos.
+## 1. Contexto
 
-## Problema a Resolver
-Muitas pessoas abandonam o controle financeiro por acharem os aplicativos atuais complicados, exigindo entradas manuais e oferecendo pouca personalização.  
-Queremos resolver isso com uma experiência conversacional fluida e recomendações automáticas que se adaptam ao perfil do usuário.
+O aplicativo busca simplificar o controle financeiro pessoal por meio de interações em linguagem natural.
+A experiência será centrada em conversas com um “assistente financeiro”, evitando formulários complexos e planilhas.
 
-## Público-Alvo
-Pessoas que desejam começar a organizar suas finanças de forma prática e sem complicações — especialmente iniciantes que não têm familiaridade com apps financeiros tradicionais.
+## Princípio adicional: O produto deve ser desenvolvido com Design Universal, garantindo que o máximo de pessoas, independentemente de idade, experiência digital ou condição física, possam utilizá-lo com boa experiência.
 
-## Funcionalidades-Chave
-1. Registro de gastos via chat: O usuário descreve seus gastos em linguagem natural, como “gastei R$ 30 no mercado”.
-2. Classificação automática de transações: O app identifica e categoriza os gastos com base no texto.
-3. Definição e acompanhamento de metas financeiras: O usuário pode criar metas como “economizar R$ 500 até o fim do mês”.
-4. Dicas personalizadas do Agente Financeiro: Um assistente virtual que sugere formas de economizar com base nos hábitos do usuário.
-5. Relatórios simples e personalizados: Visualizações claras dos gastos, metas e progresso, adaptadas ao estilo do usuário.
+## 2. Problema
 
-## Princípio de Design Universal
-A solução será construída com base em Design Universal, garantindo que o aplicativo ofereça uma experiência acessível, intuitiva e inclusiva para o maior número possível de pessoas — independentemente de idade, nível de alfabetização digital, limitações físicas ou cognitivas.  
-Isso inclui:
-- Interface clara e legível
-- Navegação simples e sem sobrecarga de informações
-- Compatibilidade com leitores de tela e comandos por voz
-- Feedbacks visuais e auditivos para facilitar o uso
+- Situação atual: Apps de finanças exigem muita entrada manual e pouca personalização, afastando usuários iniciantes.
+- Oportunidade: Criar uma experiência fluida, inclusiva e acessível, baseada em conversas, que reduza a fricção e aumente o engajamento.
+- Impacto esperado: Maior adesão de iniciantes ao hábito de organizar suas finanças, sem barreiras de usabilidade.
 
-## Entregável da IA
-Gerar um plano de MVP contendo:
-- As principais telas (chat, metas, relatórios)
-- Recursos técnicos necessários (NLP, categorização automática, motor de recomendações)
-- Estratégia de validação inicial com usuários reais
-- Linguagem acessível e tom educativo, em português
-- Aplicação dos princípios de Design Universal desde o protótipo
+## 3. Público-Alvo
+
+- Pessoas que desejam começar a organizar suas finanças sem complicação.
+- Usuários iniciantes em controle financeiro.
+- Pessoas com diferentes níveis de letramento digital, incluindo quem precisa de acessibilidade (ex.: leitura de tela, comandos por voz).
+
+## 4. Funcionalidades-Chave
+
+1. Registro de gastos via chat – O usuário informa despesas em linguagem natural (ex.: “gastei R$50 no mercado”).
+2. Classificação automática – O sistema identifica e categoriza transações.
+3. Metas financeiras – Definição de objetivos e acompanhamento.
+4. Agente Financeiro – Recomendações automáticas de economia e insights personalizados.
+5. Relatórios simples e visuais – Gráficos e resumos adaptados ao perfil do usuário.
+6. Design Universal aplicado – Interface clara, acessível e inclusiva, com suporte a diferentes formas de interação (texto, voz, contraste adequado, navegação simplificada).
+
+## 5. Entregável da IA (MVP)
+
+- Principais telas:
+  - Tela de chat (interação com o assistente).
+  - Tela de metas (definição e acompanhamento).
+  - Tela de relatórios (gráficos simples e personalizados).
+- Recursos necessários:
+  - Processamento de linguagem natural (NLP).
+  - Motor de categorização automática.
+  - Sistema de recomendações financeiras.
+  - Visualização de dados acessível.
+- Validação inicial:
+  - Testes com grupo piloto diverso (incluindo usuários com diferentes perfis e necessidades).
+  - Coleta de feedback sobre clareza, acessibilidade e facilidade de uso.
+  - Ajustes rápidos com base nas interações reais.
+
+---
+
+## Conceito de Design Universal
+
+Design Universal é uma abordagem de design que busca criar produtos, ambientes e serviços que possam ser usados pelo maior número possível de pessoas, sem necessidade de adaptação especial.
+
+Princípios básicos:
+- Uso equitativo: Funciona bem para pessoas com diferentes habilidades.
+- Flexibilidade: Permite múltiplas formas de interação (texto, voz, toque).
+- Simplicidade: Interface clara e intuitiva, sem exigir conhecimento técnico avançado.
+- Perceptível: Informações apresentadas de forma acessível (ex.: contraste de cores, suporte a leitores de tela).
+- Tolerância a erros: Evita frustrações, permitindo correções fáceis.
+- Baixo esforço físico/cognitivo: Minimiza a carga mental e física para usar o produto.
+- Espaço adequado: Considera diferentes contextos de uso (ex.: telas pequenas, acessibilidade motora).
+
 ```
 
 ---
@@ -50,54 +74,58 @@ Gerar um plano de MVP contendo:
 
 > Crie um App de Finanças Pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
 
-> Tentei criar uma meta chamada Reserva de Emergencia, mas ela não apareceu no componente. A impressão que tive foi que apenas o Assistente Financeiro a reconheceu, poderia verificar? Além disso, onde vejo os gráficos e extrato?
-
-> Sim (Quer que eu adicione uma tela de relatórios com gráficos e extrato detalhado das transações?)
+> Tentei sair do usuário, para logar com outro usuario e não funcionou! poderia verificar o que estaria acontecendo.
 
 ---
 
 ## 🎯 Resultado Final
 
 Acesse o protótipo funcional no Lovable:  
-**[conversa-fin-amigo.lovable.app](https://conversa-fin-amigo.lovable.app/)**
+**[app-org-fin.lovable.app](https://app-org-fin.lovable.app/)**
 
-<img width="1920" height="945" alt="image" src="https://github.com/user-attachments/assets/88ef611d-970e-4377-918a-918714311218" />
+<img width="1920" height="1199" alt="image" src="https://github.com/user-attachments/assets/dd849bf6-9517-4856-a725-d5859e15c49b" />
+
 
 ---
 
-## 🔍 Funcionalidades do App de Organização Financeira
+## 🔍 Aplicativo de Organização de Finanças Pessoais Coversacional
 
-### 1. Dashboard Financeiro
-- Exibe um panorama claro das finanças pessoais:
-  - **Receitas**: Total de ganhos registrados
-  - **Despesas**: Total de gastos
-  - **Saldo**: Diferença entre receitas e despesas
-- Interface simples e direta para facilitar a compreensão
 
-### 2. Assistente Financeiro
-- Personagem conversacional que interage com o usuário
-- Incentiva a conexão de contas e cartões para uma visão completa das finanças
-- Oferece suporte emocional e motivacional
+# Funcionalidades do Aplicativo de Finanças Pessoais Conversacional
 
-### 3. Registro de Transações via Chat
-- Campo de entrada para o usuário digitar mensagens em linguagem natural
-- Permite registrar gastos e interagir com o assistente de forma fluida
+### 1. Interface Conversacional
+Permite que o usuário interaja com um assistente financeiro via chat, usando linguagem natural para:
+- Registrar gastos
+- Receber orientações e dicas de economia
 
-### 4. Metas Financeiras
-- Área dedicada à criação e acompanhamento de objetivos financeiros
-- Sugestão proativa para o usuário definir metas
-- Botão de ação para adicionar novas metas
+### 2. Dashboard Financeiro
+Apresenta uma visão geral clara e atualizada:
+- Saldo disponível
+- Receitas e despesas
+- Transações recentes categorizadas automaticamente
 
-### 5. Relatórios Personalizados
-- Visualizações simples e adaptadas ao estilo do usuário
-- Acompanhamento de metas e progresso financeiro
+### 3. Gestão de Metas
+O usuário pode:
+- Definir metas financeiras (ex.: reserva de emergência, viagem)
+- Acompanhar o progresso com indicadores visuais e percentuais
+
+### 4. Relatórios Personalizados
+Disponibiliza relatórios simples e visuais:
+- Gráficos adaptados ao perfil do usuário
+- Resumos financeiros acessíveis
+
+### 5. Ações Rápidas
+Navegação facilitada para acessar:
+- Secretário (assistente financeiro)
+- Metas
+- Relatórios
+- Histórico de transações
 
 ### 6. Design Universal
-- Interface acessível e inclusiva:
-  - Linguagem simples
-  - Navegação clara
-  - Compatibilidade com leitores de tela e comandos por voz
-  - Feedbacks visuais e auditivos para facilitar o uso
+Interface desenvolvida com foco em acessibilidade e inclusão:
+- Linguagem clara e navegação intuitiva
+- Suporte a diferentes formas de interação (texto, voz)
+- Compatível com leitores de tela e contraste adequado
 
 ---
 
